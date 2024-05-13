@@ -1,0 +1,38 @@
+body {
+    background-image: url("pog rider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.Card {
+    display: flex;
+    font-size: small;
+    font-family: Helvetica, sans-serif;
+    line-height: 3em;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 2em;
+    width: 30%;
+    padding: 1em;
+    background-color: chocolate;
+    box-shadow: 0.5em 0.5em 1em black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div h1 {
+    text-align: center;
+}
+
+div.Card a img {
+    border-style: solid;
+    border-color: black;
+    border-radius: 2em;
+    background-color: grey;
+}
+
+
