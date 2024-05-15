@@ -1,6 +1,6 @@
 /* Want a background image of a hog rider*/
 body {
-    background-image: url('pog rider.jpg');
+    background-image: url('../Images/pog rider.jpg');
     background-color: chocolate;
     background-repeat: no-repeat;
     background-attachment: fixed;
