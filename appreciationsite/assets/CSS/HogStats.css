@@ -1,7 +1,7 @@
 body {
     height: 100%;
     background-image: url("../Images/pog rider.jpg");
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -26,4 +26,58 @@ header {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    color: white;
+}
+
+.quick-intro, .statistics {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+/* Style the tables */
+.tables {
+    border-style: solid;
+}
+
+.mainstats {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.mainstats, .mainstats th, .mainstats td {
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+/* pad each cell */
+th, td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Centre the actual table within the div */
+.levelstats {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+
+#hogimage {
+    width: 2em;
+}
+
+caption {
+    margin-top: 1em;
+    border-style: solid;
+    border-bottom: none;
+}
+
+.levelstats, .levelstats th, .levelstats td {
+    border-style: solid;
+    border-collapse: collapse;
 }
